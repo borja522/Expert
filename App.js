@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className='flex'>
-      <div className={'bg-dark-purple h-screen top-20 p-5 pt-8 ${open ? "w-40" ; "w-20"} duration-300 relative'}>
+      <div className={'bg-dark-purple h-screen top-20 p-5 pt-8 ${open ? "w-75" ; "w-20"} duration-300 relative'}>
         <BsArrowLeftShort className={'bg-white text-dark-purple text-3xl rounded-full absolute -right-3 top-9 borderborder-dark-purple cursor-pointer ${!open && "rotate-180"}'} onClick={() =>setOpen(!open)} />
       
         <div className="inline-flex">
